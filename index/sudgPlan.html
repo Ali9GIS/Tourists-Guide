@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+     href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+   
+</head>
+<body>
+     <!-- Start Header -->
+     <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="./index.html" class="logo">الصفحه الرئيسة</a>
+
+        <nav class="navbar">
+            <a href="./cario.html"> القاهرة</a>
+            <a href="./giza.html">الجيزة</a>
+            <a href="./sudgPlan.html" style="color: #305EEA; font-weight: bold;">الخطط المقترحة</a>
+            <a href="./info.html">معلومات عننا</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="ابحث هنا...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+     <!-- End Header -->
+    <!-- Start Landing -->
+    <section class="landing">
+        <div class="text">
+            <h1>الأطلس التفاعلي السياحي</h1>
+            <h3> لمحافظتي القاهرة والجيزة</h3>
+        </div>
+    </section>
+
+    <!-- End Landing -->
+
+    <section style="height: 500px;">
+        <h2 class="heading">ابحث عن رحلتك بشكل أسرع</h2>
+
+        <div class="box" style="direction: rtl; margin-top: 30px; gap: 10px;">
+
+            <div class="box1">
+                <span class="offer">3 عروض</span>
+                <h3>اجانب</h3>
+                <p>اختر رحلتك قبل وصولك</p>
+                <a href="./plans.html">
+                    +10 رحل مختلفة
+                    &larr;
+                </a>
+            </div>
+            
+            <div class="box1">
+                <h3>محدود الدخل</h3>
+                <p>اختر رحلتك قبل وصولك</p>
+                <a href="./limitIncome.html"  >
+                    +10 رحل مختلفة
+                    &larr;
+                </a>
+            </div>
+
+            <div class="box1">
+                <h3>العرب</h3>
+                <p>اختر رحلتك قبل وصولك</p>
+                <a href="./arabs.html">
+                    +10 رحل مختلفة
+                    &larr;
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        window.onload = () => {
+            window.scrollTo(0, 740);
+        };
+    </script>
+</body>
+</html>
